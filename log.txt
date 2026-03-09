@@ -1,1 +1,48 @@
 dev
+
+PS C:\Users\user\Desktop\Program\Program> git push -u origin master
+info: please complete authentication in your browser...
+Enumerating objects: 3, done.
+Counting objects: 100% (3/3), done.
+Writing objects: 100% (3/3), 214 bytes | 214.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/HiddenEmperor/Program.git
+ * [new branch]      master -> master
+branch 'master' set up to track 'origin/master'.
+PS C:\Users\user\Desktop\Program\Program> git log
+commit abf34efa928360f24f62d172be26f7226d2c565e (HEAD -> master, origin/master)
+Author: HiddenEmperor <7017669@gmail.com>
+Date:   Mon Mar 9 13:13:58 2026 +0800
+
+    2026.03.09 13:13
+PS C:\Users\user\Desktop\Program\Program> git push origin master
+Everything up-to-date
+PS C:\Users\user\Desktop\Program\Program> git pull origin master
+From https://github.com/HiddenEmperor/Program
+ * branch            master     -> FETCH_HEAD
+Already up to date.
+PS C:\Users\user\Desktop\Program\Program> git branch
+* master
+PS C:\Users\user\Desktop\Program\Program> git checkout-b dev
+git: 'checkout-b' is not a git command. See 'git --help'.
+PS C:\Users\user\Desktop\Program\Program> git checkout -b dev
+Switched to a new branch 'dev'
+PS C:\Users\user\Desktop\Program\Program> git add .
+PS C:\Users\user\Desktop\Program\Program> git commit -m "2026.03.09 13:28"
+[dev 052fb81] 2026.03.09 13:28
+ 1 file changed, 1 insertion(+)
+PS C:\Users\user\Desktop\Program\Program> git push-u origin dev
+git: 'push-u' is not a git command. See 'git --help'.
+PS C:\Users\user\Desktop\Program\Program> git push -u origin dev
+Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Writing objects: 100% (3/3), 245 bytes | 245.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: 
+remote: Create a pull request for 'dev' on GitHub by visiting:
+remote:      https://github.com/HiddenEmperor/Program/pull/new/dev
+remote:
+To https://github.com/HiddenEmperor/Program.git
+ * [new branch]      dev -> dev
+branch 'dev' set up to track 'origin/dev'.
+PS C:\Users\user\Desktop\Program\Program> 
